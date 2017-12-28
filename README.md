@@ -1,6 +1,6 @@
 # Chat-bot-Evaluation-Project
 Chat-bot evaluation project resources for the Grapevine High School Science Fair in January 2018. In order to ensure that test subjects remain anonymous, the names of people from the original samples are not included.
-### Key:
+# Key:
 chatbot_answers.txt: answers given by the chat-bot in response to the questions from the stratified random sample.<br>
 comparison.py: the platform used during the test to input the evaluations of the four judges.<br>
 deep.txt: conversation starters from https://conversationstartersworld.com/deep-conversation-topics/.<br>
@@ -13,7 +13,8 @@ reformatted_chatbot_answers.txt: reformatted version of chatbot_answers.txt (use
 reformatted_ground_answers.txt: reformatted version of ground_answers.txt (used in comparison.py).<br>
 roll.py: the script that samples questions from the total population of 1089 conversation starters and samples the judges using a simple random sample.<br>
 starters.txt: conversation starters from https://conversationstartersworld.com/250-conversation-starters/.<br>
-### Synopsis:
+<br>
+### Synopsis
 40 conversation starters are sampled using a stratified random sample from the aggregate produced by appending deep.txt, get_to_know.txt, good_questions.txt, philosophical.txt, and starters.txt. 
 ```batch
 python roll.py sample_questions
@@ -31,15 +32,16 @@ The four judges were led to an isolated room where they completed the study usin
 python comparison.py
 ```
 One person who is not a judge interprets the responses from the judges. If the judges strongly agree that one question is more appropriate than another question, then 1+ or 2+ is recorded, whereby the number corresponds to the chosen more appropriate answer. If the judges agree that one question is more appropriate than another question but there is some disagreement or equivocation, then a 1 or 2 is recorded, whereby the number corresponds to the chosen more appropriate answer. If there is no agreement between the judges, then a 0 is recorded. These recordings are translated by the program into scores. This system is inspired by the implementation of human evaluation done by Li et al. in <i>A Persona-Based Neural Conversation Model</i>.
-#### Scores key:
+#### Scores Key
 +2 is scored if the human answer is confidently identified.<br>
 +1 is scored if the human answer is equivocally identified.<br>
 0 is scored if the judges cannot agree on a single answer.<br>
 -1 is scored if the chat-bot answer is equivocally identified.<br>
 -2 is scored if the chat-bot answer is confidently identified.<br>
 ### More Implementation Notes
-I input and interpretted the decisions for the judges. In order to minimize bias introduced, I could not clarify the meaning of responses (i.e., answer what each response means) and abstained from commenting. The only thing that I clarified was specific vocabulary (e.g., the meaning of the word dystopia). The chat-bot curses in one of its responses; to remove the unnecessary offense created by this, I censored it when formatting the responses of the chat-bot. 
-## Bibliography
+I input and interpretted the decisions for the judges. In order to minimize bias introduced, I could not clarify the meaning of responses (i.e., answer what each response means) and abstained from commenting. The only thing that I clarified was specific vocabulary (e.g., the meaning of the word dystopia). The chat-bot curses in one of its responses; to remove the unnecessary offense created by this, I censored it when formatting the responses of the chat-bot.
+<br>
+# Bibliography
 Abadi, Martín et al. "TensorFlow: A system for large-scale machine learning." 12th USENIX Symposium on OSDI, 2016, https://arxiv.org/abs/1605.08695.<br>
 Bird, Steven, et al. Natural Language Processing with Python. O'Reilly, 2011.<br>
 Daniels, C. B. “Conversation Starters World.” Conversation Starters World, 2017, conversationstartersworld.com/.<br>
