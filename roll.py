@@ -4,7 +4,7 @@ import sys
 import re
 import numpy as np
 '''
-Usage: roll.py [sample_dialogue | sample_judges]
+Usage: roll.py [sample_ground | sample_judges | sample_questions | shuffle_ground]
 '''
 
 
@@ -54,12 +54,6 @@ if __name__ == "__main__":
 	
 	if len(args) == 2 and args[1] == "sample_judges":
 		print(draw_without_replacement(names,4))
-	
-	if len(args) == 2 and args[1] == "sample_dialogue":
-		#the number of dialogues in the Ubuntu corpus is 350
-		#this code randomly samples from an array containing the numbers 1-350
-		indices = [x for x in range(1,350)]
-		print(sample_from(indices))
 	
 	if len(args) == 2 and args[1] == "sample_questions":
 		paths = ["deep.txt", "get_to_know.txt", "good_questions.txt", "philosophical.txt", "starters.txt"]
