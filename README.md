@@ -1,6 +1,6 @@
 # Chat-bot-Evaluation-Project
 Chat-bot evaluation project resources for the Grapevine High School Science Fair in January 2018. In order to ensure that test subjects remain anonymous, the names of people from the original samples are not included.
-# Key:
+# Key
 chatbot_answers.txt: answers given by the chat-bot in response to the questions from the stratified random sample.<br>
 comparison.py: the platform used during the test to input the evaluations of the four judges.<br>
 deep.txt: conversation starters from https://conversationstartersworld.com/deep-conversation-topics/.<br>
@@ -14,7 +14,7 @@ reformatted_ground_answers.txt: reformatted version of ground_answers.txt (used 
 roll.py: the script that samples questions from the total population of 1089 conversation starters and samples the judges using a simple random sample.<br>
 starters.txt: conversation starters from https://conversationstartersworld.com/250-conversation-starters/.<br>
 <br>
-### Synopsis
+## Synopsis
 40 conversation starters are sampled using a stratified random sample from the aggregate produced by appending deep.txt, get_to_know.txt, good_questions.txt, philosophical.txt, and starters.txt. 
 ```batch
 python roll.py sample_questions
