@@ -14,6 +14,11 @@ reformatted_ground_answers.txt: reformatted version of ground_answers.txt (used 
 roll.py: the script that samples questions from the total population of 1089 conversation starters and samples the judges using a simple random sample.<br>
 starters.txt: conversation starters from https://conversationstartersworld.com/250-conversation-starters/.<br>
 <br>
+# Requirements
+#### Numpy 1.13.3+
+#### Tensorflow 1.3.0 + 
+#### Natural Language Toolkit 3.2.4+
+<br>
 ## Synopsis
 40 conversation starters are sampled using a stratified random sample from the aggregate produced by appending deep.txt, get_to_know.txt, good_questions.txt, philosophical.txt, and starters.txt. 
 ```batch
