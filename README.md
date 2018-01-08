@@ -38,7 +38,7 @@ The four judges were led to an isolated room where they completed the study usin
 ```batch
 python comparison.py
 ```
-One person who is not a judge interprets the responses from the judges. If the judges strongly agree that one question is more appropriate than another question, then 1+ or 2+ is recorded, whereby the number corresponds to the chosen more appropriate answer. If the judges agree that one question is more appropriate than another question but there is some disagreement or equivocation, then a 1 or 2 is recorded, whereby the number corresponds to the chosen more appropriate answer. If there is no agreement between the judges, then a 0 is recorded. These recordings are translated by the program into scores. This system is inspired by the implementation of human evaluation done by Li et al. in <i>A Persona-Based Neural Conversation Model</i>.
+One person who is not a judge interprets the responses from the judges. If the judges strongly agree that one answer is more appropriate than another answer, then 1+ or 2+ is recorded, whereby the number corresponds to the chosen more appropriate answer. If the judges agree that one answer is more appropriate than another answer but there is some disagreement or equivocation, then a 1 or 2 is recorded, whereby the number corresponds to the chosen more appropriate answer. If there is no agreement between the judges, then a 0 is recorded. These recordings are translated by the program into scores. This system is inspired by the implementation of human evaluation done by Li et al. in <i>A Persona-Based Neural Conversation Model</i>.
 #### Scores Key
 +2 is scored if the human answer is confidently identified.<br>
 +1 is scored if the human answer is equivocally identified.<br>
