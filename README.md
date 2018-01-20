@@ -1,5 +1,5 @@
 # Chat-bot-Evaluation-Project
-Chat-bot evaluation project resources for the Grapevine High School Science Fair in January 2018. In order to ensure that test subjects remain anonymous, the names of people from the original samples are not included.
+Chat-bot evaluation project resources for the GCISD Science Fair in January 2018. In order to ensure that test subjects remain anonymous, the names of people from the original samples are not included.
 # Key
 chatbot_answers.txt: answers given by the chat-bot in response to the questions from the stratified random sample.<br>
 comparison.py: the platform used during the test to input the evaluations of the four judges.<br>
