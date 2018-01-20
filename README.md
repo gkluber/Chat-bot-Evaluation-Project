@@ -45,7 +45,7 @@ One person who is not a judge interprets the responses from the judges. If the j
 0 is scored if the judges cannot agree on a single answer.<br>
 -1 is scored if the chat-bot answer is equivocally identified.<br>
 -2 is scored if the chat-bot answer is confidently identified.<br>
-## Results
+# Results
 Using a chi-square test and significance value of alpha=0.005, the null hypothesis, corresponding to the chat-bot being indistinguishable, is rejected twice, but is failed to be rejected once. Qualitatively, a common fail-case is the chat-bot giving nonsensical replies, which corresponds to a failure to interpret the question. Persiyanov, Dmitry (2017) identifies this difficulty with language as common in generative NLP models.
 ### More Implementation Notes
 I input and interpretted the decisions for the judges. In order to minimize bias introduced, I could not clarify the meaning of responses (i.e., answer what each response means) and abstained from commenting. The only thing that I clarified was specific vocabulary (e.g., the meaning of the word dystopia). The chat-bot curses in one of its responses; to remove the unnecessary offense created by this, I censored it when formatting the responses of the chat-bot. 
