@@ -45,14 +45,17 @@ One person who is not a judge interprets the responses from the judges. If the j
 0 is scored if the judges cannot agree on a single answer.<br>
 -1 is scored if the chat-bot answer is equivocally identified.<br>
 -2 is scored if the chat-bot answer is confidently identified.<br>
+## Results
+Using a chi-square test and significance value of alpha=0.005, the null hypothesis, corresponding to the chat-bot being indistinguishable, is rejected twice, but is failed to be rejected once. Qualitatively, a common fail-case is the chat-bot giving nonsensical replies, which corresponds to a failure to interpret the question. Persiyanov, Dmitry (2017) identifies this difficulty with language as common in generative NLP models.
 ### More Implementation Notes
-I input and interpretted the decisions for the judges. In order to minimize bias introduced, I could not clarify the meaning of responses (i.e., answer what each response means) and abstained from commenting. The only thing that I clarified was specific vocabulary (e.g., the meaning of the word dystopia). The chat-bot curses in one of its responses; to remove the unnecessary offense created by this, I censored it when formatting the responses of the chat-bot.
+I input and interpretted the decisions for the judges. In order to minimize bias introduced, I could not clarify the meaning of responses (i.e., answer what each response means) and abstained from commenting. The only thing that I clarified was specific vocabulary (e.g., the meaning of the word dystopia). The chat-bot curses in one of its responses; to remove the unnecessary offense created by this, I censored it when formatting the responses of the chat-bot. 
 <br>
 # Bibliography
 Abadi, Martín et al. "TensorFlow: A system for large-scale machine learning." 12th USENIX Symposium on OSDI, 2016, https://arxiv.org/abs/1605.08695.<br>
 Bird, Steven, et al. Natural Language Processing with Python. O'Reilly, 2011.<br>
 Daniels, C. B. “Conversation Starters World.” Conversation Starters World, 2017, conversationstartersworld.com/.<br>
-Hugunin, Jim.  "The Python Matrix Object: Extending Python for Numerical Computation. " Proceedings of the Third Python Workshop, Reston, Va., Dec. 1995. http://legacy.python.org/workshops/1995-12/papers/hugunin.html.<br>
+Hugunin, Jim.  "The Python Matrix Object: Extending Python for Numerical Computation." Proceedings of the Third Python Workshop, Reston, Va., Dec. 1995, http://legacy.python.org/workshops/1995-12/papers/hugunin.html.<br>
 Li, Jiwei et al. "A Persona-Based Neural Conversation Model." Association for Computational Linguistics, 2016, https://arxiv.org/abs/1603.06155.<br>
+Persiyanov, Dmitry. "Chatbots with Machine Learning: Building Neural Conversational Agents." Stats and Bots, Sept. 2017, https://blog.statsbot.co/chatbots-machine-learning-e83698b1a91e<br>
 Pot, Etienne, Deep Question and Answer, 2017, GitHub repository, https://github.com/Conchylicultor/DeepQA.<br>
 Vinyals, Oriol, and Quoc V. Le. "A Neural Conversational Model." International Conference on Machine Learning, vol. 37, 2015. https://arxiv.org/abs/1506.05869.<br>
