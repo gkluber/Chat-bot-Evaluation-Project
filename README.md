@@ -57,5 +57,5 @@ Daniels, C. B. “Conversation Starters World.” Conversation Starters World, 2
 Hugunin, Jim.  "The Python Matrix Object: Extending Python for Numerical Computation." <i>Proceedings of the Third Python Workshop, Reston</i>, Va., Dec. 1995, http://legacy.python.org/workshops/1995-12/papers/hugunin.html.<br>
 Li, Jiwei et al. "A Persona-Based Neural Conversation Model." <i>Association for Computational Linguistics</i>, 2016, https://arxiv.org/abs/1603.06155.<br>
 Persiyanov, Dmitry. "Chatbots with Machine Learning: Building Neural Conversational Agents." <i>Stats and Bots</i>, Sept. 2017, https://blog.statsbot.co/chatbots-machine-learning-e83698b1a91e<br>
-Pot, Etienne. Deep Question and Answer, 2017, GitHub repository, https://github.com/Conchylicultor/DeepQA.<br>
+Pot, Etienne. Deep Question and Answer. GitHub repository, 2017, https://github.com/Conchylicultor/DeepQA.<br>
 Vinyals, Oriol, and Quoc V. Le. "A Neural Conversational Model." <i>International Conference on Machine Learning</i>, vol. 37, 2015. https://arxiv.org/abs/1506.05869.<br>
