@@ -38,7 +38,7 @@ The four judges were led to an isolated room where they completed the study by i
 ```batch
 python comparison.py
 ```
-One person who is not a judge interprets the responses from the judges. If the judges strongly agree that one answer is more appropriate than another answer, then 1+ or 2+ is recorded, whereby the number corresponds to the chosen answer. If the judges agree that one answer is more appropriate than another answer but there is some disagreement or equivocation, then a 1 or 2 is recorded, whereby the number corresponds to the chosen answer. If there is no agreement between the judges, then a 0 is recorded. These recordings are translated by the program into scores. This system is inspired by the implementation of human evaluation done by Li et al. in <i>A Persona-Based Neural Conversation Model</i>.
+One person who is not a judge interprets the responses from the judges. If the judges strongly agree that one answer is more appropriate than another answer, then 1+ or 2+ is recorded, whereby the number corresponds to the chosen answer. If the judges agree that one answer is more appropriate than another answer but there is some disagreement or equivocation, then a 1 or 2 is recorded, whereby the number corresponds to the chosen answer. If there is no agreement between the judges, then a 0 is recorded. These recordings are translated by the program into scores. This system resembles a five-point Likert scale is inspired by the implementation of human evaluation done by Li et al. in <i>A Persona-Based Neural Conversation Model</i>.
 #### Scores Key
 +2 is scored if the human answer is confidently identified.<br>
 +1 is scored if the human answer is equivocally identified.<br>
@@ -51,11 +51,11 @@ I input and interpretted the decisions for the judges. In order to minimize bias
 Using a chi-square test and significance value of α=0.005, the null hypothesis (corresponding to the chat-bot being indistinguishable) is rejected twice, but its rejection fails once. Overall, it appears that the chat-bot fails to emulate real replies completely. Qualitatively, a common fail-case is the chat-bot giving nonsensical replies, which corresponds to a failure to interpret the question. Persiyanov, Dmitry (2017) identifies this difficulty with language as common in generative NLP models.
 <br>
 # Bibliography
-Abadi, Martín et al. "TensorFlow: A system for large-scale machine learning." 12th USENIX Symposium on OSDI, 2016, https://arxiv.org/abs/1605.08695.<br>
+Abadi, Martín et al. "TensorFlow: A system for large-scale machine learning." <i>12th USENIX Symposium on OSDI</i>, 2016, https://arxiv.org/abs/1605.08695.<br>
 Bird, Steven, et al. Natural Language Processing with Python. O'Reilly, 2011.<br>
-Daniels, C. B. “Conversation Starters World.” Conversation Starters World, 2017, conversationstartersworld.com/.<br>
-Hugunin, Jim.  "The Python Matrix Object: Extending Python for Numerical Computation." Proceedings of the Third Python Workshop, Reston, Va., Dec. 1995, http://legacy.python.org/workshops/1995-12/papers/hugunin.html.<br>
-Li, Jiwei et al. "A Persona-Based Neural Conversation Model." Association for Computational Linguistics, 2016, https://arxiv.org/abs/1603.06155.<br>
-Persiyanov, Dmitry. "Chatbots with Machine Learning: Building Neural Conversational Agents." Stats and Bots, Sept. 2017, https://blog.statsbot.co/chatbots-machine-learning-e83698b1a91e<br>
+Daniels, C. B. “Conversation Starters World.” Conversation Starters World, 2017, https://conversationstartersworld.com/.<br>
+Hugunin, Jim.  "The Python Matrix Object: Extending Python for Numerical Computation." <i>Proceedings of the Third Python Workshop, Reston</i>, Va., Dec. 1995, http://legacy.python.org/workshops/1995-12/papers/hugunin.html.<br>
+Li, Jiwei et al. "A Persona-Based Neural Conversation Model." <i>Association for Computational Linguistics</i>, 2016, https://arxiv.org/abs/1603.06155.<br>
+Persiyanov, Dmitry. "Chatbots with Machine Learning: Building Neural Conversational Agents." <i>Stats and Bots</i>, Sept. 2017, https://blog.statsbot.co/chatbots-machine-learning-e83698b1a91e<br>
 Pot, Etienne. Deep Question and Answer, 2017, GitHub repository, https://github.com/Conchylicultor/DeepQA.<br>
-Vinyals, Oriol, and Quoc V. Le. "A Neural Conversational Model." International Conference on Machine Learning, vol. 37, 2015. https://arxiv.org/abs/1506.05869.<br>
+Vinyals, Oriol, and Quoc V. Le. "A Neural Conversational Model." <i>International Conference on Machine Learning</i>, vol. 37, 2015. https://arxiv.org/abs/1506.05869.<br>
